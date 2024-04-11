@@ -1,0 +1,44 @@
+body{
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {   
+    background-image: url("pulp_fiction.jpg");   
+    background-size: cover;
+   
+}
+
+
+.header {
+    background-color: red;
+    display: flex;
+    height: 250px;
+    width: auto;
+    color: yellow;
+    font-size: 140px;
+    text-align:center ;
+    align-items: center;
+    justify-content: center;
+}
+
+.casting{
+    background-color: none;
+    color: yellow;
+    font-size: 30px;
+    position: left;
+    padding-top: 70%;
+    padding-bottom: 70%;
+    
+
+}
+
+.credit{
+    text-transform: uppercase;
+    background-color: none;
+    color: white;
+    position: bottom;
+    text-align: center;
+    font-size: 25px;
+}
